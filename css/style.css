@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  /* Primary */
+  --light-red: hsl(356, 100%, 66%); /*CTA text*/
+  --very-light-red: hsl(355, 100%, 47%); /*CTA hover background*/
+  --very-dark-blue: hsl(208, 49%, 24%); /*Headings*/
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(240, 2%, 79%);
+  --very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --very-dark-black-blue: hsl(240, 10%, 16%);
+  /* Gradient*/
+  /* Background gradient - Intro/CTA mobile nav */
+  --bg-very-light-red: hsl(13, 100%, 72%);
+  --bg-light-red: hsl(353, 100%, 62%);
+  /* Background gradient - body */
+  --bg-very-dark-blue: hsl(237, 17%, 21%);
+  --bg-very-dark-grayish-blue: hsl(237, 23%, 32%);
+}
+
+
+/* Body */
+
+body {
+  background-color: var(--bg-very-dark-grayish-blue);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  /* width: 150px; */
+}
+
+.header {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+}
+.main-nav {
+  display: flex;
+}
+.nav-item{
+  display: flex
+}
+.icon-arrow{
+  width: ;
+}
+.nav-site {
+}
+li{
+  display: none;
+}
+.dropdown-menu {
+  /* display: none; */
+}
+.nav-register {
+}
+.btn-menu {
+  background-color: black;
+}
+
+.icon-hamburger {
+  color: black;
+  width: 32px;
+  height: 18px;
+}
+.hero {
+}
+.hero-title {
+}
+.hero-description {
+}
+.hero-btn {
+}
+.btn-start {
+}
+.btn-info {
+}
+.future {
+}
+.future-title {
+}
+.future-container {
+}
+.future-img-mobile {
+}
+.future-img-desktop {
+}
+.future-text {
+}
+.future-subtitle {
+}
+.future-description {
+}
+.infras {
+}
+.infras-container {
+}
+.infras-img {
+}
+.infras-text {
+}
+.infras-title {
+}
+.infras-description {
+}
+.app {
+}
+.app-container {
+}
+.app-content {
+}
+.app-text {
+}
+.app-subtitle {
+}
+.app-description {
+}
+.footer-links {
+}
+.footer-links-title {
+}
+
+/* Attribution CSS */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
